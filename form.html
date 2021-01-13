@@ -1,0 +1,30 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>로그인 화면 만들기</title>
+            <link rel="stylesheet" href="style.css" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+        </head>
+        <body>
+            <div class="overlay">
+                <h1><u>시작해봅시다잉</u></h1>
+                <form action="submission.html" method="POST">
+                    <label for="login">1. 아이디와 비번을 입력하세요.</label>
+                    <br>
+                    <label for="ID">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID</label>
+                    <input type="text" name="ID" id="ID" required minlength="3" maxlength="12">
+                    <br>
+                    <label for="PW">PASSWORD</label>
+                    <input type="password" name="PW" id="PW" required>
+                    <br>
+                    <label for="OP">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*옵션</label>
+                    <input type="number" name="OP" id="OP" required min="1" max="10">
+                    <br>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </body>
+    </html>
+</DOCTYPE>
